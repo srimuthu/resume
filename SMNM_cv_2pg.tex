@@ -24,7 +24,7 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[a4paper,10pt]{article} % Default font size and paper size
-
+\usepackage{amsmath}
 \usepackage{fontspec} % For loading fonts
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin-Regular} % Main document font
@@ -77,17 +77,18 @@
 %\section{Education}
 
 \begin{tabular}{rl}	
-\ Current & \textbf{Masters in Embedded Systems} \footnotesize{(Networking stream)}\\
+\ Current & \textbf{Masters in Embedded Systems} \footnotesize{(Systems Architecture and Networking)} \hfill \normalsize \textbf{GPA: 8.3/10}         \footnotesize{ (Q6)}\\
 \ Aug 2015 & Eindhoven University Of Technology\\
-& \footnotesize{Courses : System Validation, Architecture of Distributed Systems, Networked Embedded Systems}\\
-& \footnotesize{Internet of Things, Embedded Computer Architectures, Parallelism Compilers and Platforms,}\\ 
+& Master's thesis (ongoing): Resource access protocol for multiprocessor real-time systems\\
+%& \footnotesize{Courses : System Validation, Architecture of Distributed Systems, Networked Embedded Systems}\\
+%& \footnotesize{Internet of Things, Embedded Computer Architectures, Parallelism Compilers and Platforms,}\\ 
 %& \footnotesize{Real Time Systems, Electronic Design Automation, Verification of Security Protocols}
 &\\
 \ 2009-2013 & \textbf{Bachelor of Engineering in Electrical and Electronics} \hfill \textbf{GPA: 8.2/10}\\
 & College of Engineering Guindy (CEG), Anna University, Chennai\\
 &  \emph{Senior Year Thesis : Condition monitoring and fault diagnosis of Induction motors}\\
 &  \footnotesize{ - Sensor data acquisition, Feature extraction \& trend analysis for fault prediction in industrial induction motors.}\\
-& \footnotesize{ - Cost effective monitoring and proactive warning system to minimize downtime. (10/10 points for the thesis.)}\\
+%& \footnotesize{ - Cost effective monitoring and proactive warning system to minimize downtime. (10/10 points for the thesis.)}\\
 &\\
 %------------------------------------------------
 %\ 2007-2009 & Higher Secondary Education \hfill \textbf{Aggregate: 97.58\%}\\
@@ -141,20 +142,21 @@
 
 \section{Projects}
 \subsection{Projects at TU/e}
+\textbf{Dashboard for EIT digital online courses in Coursera } - Student assistant at TU/e\\
+\textbf{Autonomously driving solar robot} - Developed using OpenCV on the RaspberryPi\\
 \textbf{GPU parallelization for a mock bit-coin mining application} - Implemented using CUDA C\\
 \textbf{Parallelization of the AES encryption algorithm} - Using OpenMP\\
 \textbf{Wireless Sensor Network for In-Vehicle applications} - Simulated using Contiki \& COOJA\\
-\textbf{VLIW architecture for AES encryption application} - developed on a SiliconHive processor\\
+%\textbf{VLIW architecture for AES encryption application} - developed on a SiliconHive processor\\
 \textbf{Internet of Things based smart parking spot} - Client/Server implemented on CoAP/UDP (LWM2M)\\
-%\textbf{Formal validation of Automated Railroad Crossing System} - Using modal $\mu$ calculus\\
-\textbf{Electronic Design Automation} - High Level Synthesis for image convolution using Vivado.
+\textbf{Formal validation of Automated Railroad Crossing System} - Using modal $\mu$ calculus\\
+%\textbf{Electronic Design Automation} - High Level Synthesis for image convolution using Vivado.
 
 \subsection{Projects at Caterpillar inc.}
 
  \textbf{Data Link simulator for Hardware-In-Loop (HIL) simulations} \hfill Jan ‘14 to Oct '14 
 \begin{itemize} \itemsep -2pt % Reduce space between items
-\item Worked on a research project in developing customized data link simulator with multiple protocol support (including CAN/J1939 public and proprietary protocols) for HIL simulations during software development and testing of ECUs (Electronic Control Units). 
-\item Worked on the implementation using Zero Message Queue (ZMQ) high performance asynchronous messaging library.
+\item Customized data link simulator with multiple protocol support (including CAN/J1939 public and proprietary protocols) for HIL simulations and testing of ECUs (Electronic Control Units). 
 \end{itemize}
 %----------------------------------------------------------------------------------------
 
@@ -163,8 +165,7 @@
 %----------------------------------------------------------------------------------------
  \textbf{Display ECU Test automation} \hfill Nov ‘13 to July '14 
 \begin{itemize} \itemsep -2pt % Reduce space between items
-\item Proposed and Spearheaded the project for automation of the HIL testing of Display ECUs. 
-\item Developed the entire automation framework for onscreen data capture and data link validation using custom OCR software \& Python (80\% increase in quality and velocity | \$21k cost savings).
+\item Developed an automation framework for onscreen data capture and data link validation using custom OCR software \& Python (80\% increase in quality and velocity | \$21k cost savings).
 \end{itemize}
 
 
@@ -194,7 +195,7 @@
 \begin{tabular}{rl}
 Over 10000 lines & C, Python\\
 Over 5000 lines & C++, VBA\\
-Familiar & VBA, Java, HTML5\\
+Familiar & VBA, Java, HTML5, C\#, R\\
 Simulation \& modeling: & \textsc{MATLAB}, Vivado \& Vivado HLS, Vector Tools \textsc{(CAN}alyzer/\textsc{CAN}oe)\\
 Version Control : &IBM Rational Clearcase, GIT\\
 Platforms: & Windows, Linux (Ubuntu \& Raspbian distributions)\\
